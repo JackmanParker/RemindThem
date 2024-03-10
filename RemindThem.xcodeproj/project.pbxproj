@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CDAC4E142B99991E00F75F54 /* RemindThemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E132B99991E00F75F54 /* RemindThemApp.swift */; };
-		CDAC4E162B99991E00F75F54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E152B99991E00F75F54 /* ContentView.swift */; };
-		CDAC4E182B99992000F75F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAC4E172B99992000F75F54 /* Assets.xcassets */; };
+		CDAC4E162B99991E00F75F54 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E152B99991E00F75F54 /* MeetingView.swift */; };
 		CDAC4E1B2B99992000F75F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAC4E1A2B99992000F75F54 /* Preview Assets.xcassets */; };
 		CDAC4E252B99992000F75F54 /* RemindThemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E242B99992000F75F54 /* RemindThemTests.swift */; };
 		CDAC4E2F2B99992000F75F54 /* RemindThemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E2E2B99992000F75F54 /* RemindThemUITests.swift */; };
 		CDAC4E312B99992000F75F54 /* RemindThemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E302B99992000F75F54 /* RemindThemUITestsLaunchTests.swift */; };
+		CDFBFC4D2B9D2D2B002EEA5B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC4C2B9D2D2B002EEA5B /* Theme.swift */; };
+		CDFBFC4F2B9D2FA2002EEA5B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC4E2B9D2FA2002EEA5B /* DailyScrum.swift */; };
+		CDFBFC512B9D3247002EEA5B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC502B9D3247002EEA5B /* CardView.swift */; };
+		CDFBFC532B9D350B002EEA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFBFC522B9D350B002EEA5B /* Assets.xcassets */; };
+		CDFBFC552B9D48ED002EEA5B /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC542B9D48ED002EEA5B /* TrailingIconLabelStyle.swift */; };
+		CDFBFC572B9D514E002EEA5B /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC562B9D514E002EEA5B /* ScrumsView.swift */; };
+		CDFBFC5B2B9D5E2D002EEA5B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBFC5A2B9D5E2D002EEA5B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,20 @@
 /* Begin PBXFileReference section */
 		CDAC4E102B99991E00F75F54 /* RemindThem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindThem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAC4E132B99991E00F75F54 /* RemindThemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindThemApp.swift; sourceTree = "<group>"; };
-		CDAC4E152B99991E00F75F54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CDAC4E172B99992000F75F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAC4E152B99991E00F75F54 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		CDAC4E1A2B99992000F75F54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDAC4E202B99992000F75F54 /* RemindThemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindThemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAC4E242B99992000F75F54 /* RemindThemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindThemTests.swift; sourceTree = "<group>"; };
 		CDAC4E2A2B99992000F75F54 /* RemindThemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindThemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAC4E2E2B99992000F75F54 /* RemindThemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindThemUITests.swift; sourceTree = "<group>"; };
 		CDAC4E302B99992000F75F54 /* RemindThemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindThemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDFBFC4C2B9D2D2B002EEA5B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CDFBFC4E2B9D2FA2002EEA5B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		CDFBFC502B9D3247002EEA5B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CDFBFC522B9D350B002EEA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
+		CDFBFC542B9D48ED002EEA5B /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CDFBFC562B9D514E002EEA5B /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		CDFBFC5A2B9D5E2D002EEA5B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,15 @@
 		CDAC4E122B99991E00F75F54 /* RemindThem */ = {
 			isa = PBXGroup;
 			children = (
+				CDFBFC4B2B9D2CC9002EEA5B /* Models */,
+				CDAC4E152B99991E00F75F54 /* MeetingView.swift */,
 				CDAC4E132B99991E00F75F54 /* RemindThemApp.swift */,
-				CDAC4E152B99991E00F75F54 /* ContentView.swift */,
-				CDAC4E172B99992000F75F54 /* Assets.xcassets */,
+				CDFBFC522B9D350B002EEA5B /* Assets.xcassets */,
 				CDAC4E192B99992000F75F54 /* Preview Content */,
+				CDFBFC502B9D3247002EEA5B /* CardView.swift */,
+				CDFBFC542B9D48ED002EEA5B /* TrailingIconLabelStyle.swift */,
+				CDFBFC562B9D514E002EEA5B /* ScrumsView.swift */,
+				CDFBFC5A2B9D5E2D002EEA5B /* DetailView.swift */,
 			);
 			path = RemindThem;
 			sourceTree = "<group>";
@@ -125,6 +142,15 @@
 				CDAC4E302B99992000F75F54 /* RemindThemUITestsLaunchTests.swift */,
 			);
 			path = RemindThemUITests;
+			sourceTree = "<group>";
+		};
+		CDFBFC4B2B9D2CC9002EEA5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDFBFC4C2B9D2D2B002EEA5B /* Theme.swift */,
+				CDFBFC4E2B9D2FA2002EEA5B /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDAC4E1B2B99992000F75F54 /* Preview Assets.xcassets in Resources */,
-				CDAC4E182B99992000F75F54 /* Assets.xcassets in Resources */,
+				CDFBFC532B9D350B002EEA5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAC4E162B99991E00F75F54 /* ContentView.swift in Sources */,
+				CDFBFC4F2B9D2FA2002EEA5B /* DailyScrum.swift in Sources */,
+				CDFBFC5B2B9D5E2D002EEA5B /* DetailView.swift in Sources */,
+				CDFBFC552B9D48ED002EEA5B /* TrailingIconLabelStyle.swift in Sources */,
+				CDFBFC4D2B9D2D2B002EEA5B /* Theme.swift in Sources */,
+				CDFBFC572B9D514E002EEA5B /* ScrumsView.swift in Sources */,
+				CDAC4E162B99991E00F75F54 /* MeetingView.swift in Sources */,
 				CDAC4E142B99991E00F75F54 /* RemindThemApp.swift in Sources */,
+				CDFBFC512B9D3247002EEA5B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
