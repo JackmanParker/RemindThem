@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDA54BC72BA646EC005C767A /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA54BC62BA646EC005C767A /* DetailEditView.swift */; };
 		CDAC4E142B99991E00F75F54 /* RemindThemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E132B99991E00F75F54 /* RemindThemApp.swift */; };
 		CDAC4E162B99991E00F75F54 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC4E152B99991E00F75F54 /* MeetingView.swift */; };
 		CDAC4E1B2B99992000F75F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAC4E1A2B99992000F75F54 /* Preview Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CDA54BC62BA646EC005C767A /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		CDAC4E102B99991E00F75F54 /* RemindThem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindThem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAC4E132B99991E00F75F54 /* RemindThemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindThemApp.swift; sourceTree = "<group>"; };
 		CDAC4E152B99991E00F75F54 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				CDFBFC542B9D48ED002EEA5B /* TrailingIconLabelStyle.swift */,
 				CDFBFC562B9D514E002EEA5B /* ScrumsView.swift */,
 				CDFBFC5A2B9D5E2D002EEA5B /* DetailView.swift */,
+				CDA54BC62BA646EC005C767A /* DetailEditView.swift */,
 			);
 			path = RemindThem;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				CDFBFC4F2B9D2FA2002EEA5B /* DailyScrum.swift in Sources */,
 				CDFBFC5B2B9D5E2D002EEA5B /* DetailView.swift in Sources */,
+				CDA54BC72BA646EC005C767A /* DetailEditView.swift in Sources */,
 				CDFBFC552B9D48ED002EEA5B /* TrailingIconLabelStyle.swift in Sources */,
 				CDFBFC4D2B9D2D2B002EEA5B /* Theme.swift in Sources */,
 				CDFBFC572B9D514E002EEA5B /* ScrumsView.swift in Sources */,
